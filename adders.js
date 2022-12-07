@@ -1,3 +1,5 @@
+console.log('');
+
 const adder = (x) => {
     return (y) => {
       return (z) => x + y + z;
@@ -44,3 +46,5 @@ const adder = (x) => {
   
   console.log('adderFour\'s expected output: 16')
   console.log(`adderFour's output: ${result}`)
+
+  console.log('');
